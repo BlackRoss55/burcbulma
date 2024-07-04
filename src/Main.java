@@ -12,9 +12,10 @@ public class Main {
         System.out.print("Kaçıncı ayda doğduğunuzu giiriniz: ");
         mon = sc.nextInt();
 
-        if(day<1 || day >31 || mon <1 || mon >12){
+        if(day<1 || day >31 || mon <1 || mon >12) {
             System.out.print("Girilen gün veya ay hatalıdır.");
         }
+        else {
         if(mon == 1){
             if(day >=1 && day <=21 ){
                 System.out.print("Burcunuz oğlak!");
@@ -111,5 +112,5 @@ public class Main {
                 System.out.print("Burcunuz oğlak");
             }
         }
-    }
+    }}
 }
